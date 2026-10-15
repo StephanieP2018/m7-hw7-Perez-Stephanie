@@ -143,12 +143,13 @@ header a:hover {
 
 /* Hero button: lifts up and gains a shadow */
 section.hero > button {
-  transition: transform 250ms ease, box-shadow 250ms ease;
+  transition: transform 250ms ease, box-shadow 250ms ease, background-color 250ms ease;
 }
 
 section.hero > button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.123);
+  background-color: var(--warn-color);
 }
 
 /* Links in the article text: briefly flash a different color */
